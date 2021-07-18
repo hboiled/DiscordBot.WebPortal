@@ -5,6 +5,7 @@ import NavBar from "./components/navbar/navbar";
 import Home from "./pages/home";
 import About from "./pages/about";
 import Privacy from "./pages/privacy";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           </Route>
         </Switch>
       </Router>
+      <Footer />
     </>
   );
 }
